@@ -6,12 +6,12 @@ movies=[{
 {
 	"name": "Transformers",
 	"description": "Two opposing factions of transforming alien robots engage in a battle that has the fate of Earth in the balance.",
-	"image": "img/transformers1984.jpg"
+	"image": "img/transformers1986.jpg"
 	},
 {
 	"name": "God's Not Dead",
 	"description": "College philosophy professor Mr. Radisson's curriculum is challenged by his new student, Josh, who believes God exists.",
-	"image": "img/godsnotdead.jpg"
+	"image": "img/godsnotdead1.jpg"
 	},
 	{
 	"name": "Avengers",
