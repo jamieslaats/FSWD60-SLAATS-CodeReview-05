@@ -1,31 +1,31 @@
 movies=[{
 	"name": "Marley & Me",
 	"description": "A family learns important life lessons from their adorable, but naughty and neurotic dog.",
-	"image": "img/marleyandme.jpg"
+	"image": "img/marleyandme.png"
 	},
 {
 	"name": "Transformers",
 	"description": "Two opposing factions of transforming alien robots engage in a battle that has the fate of Earth in the balance.",
-	"image": "img/transformers1986.jpg"
+	"image": "img/transformers1986.png"
 	},
 {
 	"name": "God's Not Dead",
 	"description": "College philosophy professor Mr. Radisson's curriculum is challenged by his new student, Josh, who believes God exists.",
-	"image": "img/godsnotdead1.jpg"
+	"image": "img/godsnotdead1.png"
 	},
 	{
 	"name": "Avengers",
 	"description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-	"image": "img/avengersnumber1.jpg"
+	"image": "img/avengersnumber1.png"
 	},
 	{
 	"name": "Inception",
 	"description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-	"image": "img/inception.jpg"
+	"image": "img/inception.png"
 	},
 	{
 	"name": "Limitless",
 	"description": "With the help of a mysterious pill that enables the user to access one hundred percent of his brain abilities, a struggling writer becomes a financial wizard, but it also puts him in a new world with lots of dangers.",
-	"image": "img/limitless.jpg"
+	"image": "img/limitless.png"
 	},
 ];

@@ -1,7 +1,96 @@
 div {
-	border: 1px solid black;
+	border: 1px solid red;
+}
+/* BEGINNING OF MAIN SECTION AND COMPLETE SELF STYLED CSS */
+main {
+	background-color: #171E24;
+	padding: 25px 0px 50px 0px;
+}
+h1, h2, p {
+	color: white;
+}
+/*--- NAVIGATION BAR STYLING ---*/
+nav {
+	background-color:  #434343;
+}
+#weblinks a {
+	color: white;
+	font-size: 1.7em;
+	font-weight:  bold;
 }
 
+/*---ROW STYLING WITHIN THE CONTENT ---*/
+#row1 {
+	margin: 20px 0px 20px 0px;
+}
+
+#row2, #header, #footer {
+	background-color: black;
+	border-radius: 5px;
+}
 .moviepic img {
-	width: 200px;
+	border-radius: 8px;
+}
+
+/*---BUTTON STYLING FOR THE LIKE BUTTON ---*/
+.lkbtn {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+	font-size: 2em;
+}
+button {
+	background-color: black;
+	border: black;
+	color: #2EA33A ;
+	outline: none;
+}
+.badge {
+	font-size: 1.75em;
+	border-radius: 75%;
+	color: white;
+	background-color: #2EA33A;
+
+}
+
+/*---ALL THE EXTRA MEDIA QUERIES THAT ARE NEEDED---*/
+
+/* sm */
+@media (min-width: 568px) {
+    .moviepic img  {
+       width:  100%;
+       padding: 5px 0px 3px 0px;
+    }
+	.row {
+	padding: 5px 2px 5px 2px;
+	margin: 5px 2px 5px 2px;
+	}
+
+}
+
+/* md */
+@media (min-width: 768px) {
+    .moviepic img  {
+        width: 100%;
+        padding: 5px 0px 3px 0px;
+    }
+	.row {
+	padding: 5px 2px 5px 2px;
+	margin: 5px 2px 5px 2px;
+	}
+}
+
+/* lg */
+@media (min-width: 992px) {
+    .moviepic img {
+        width: 100%;
+        padding: 5px 0px 3px 0px;
+    }
+}
+
+/*xl */
+@media (min-width: 1200px) {
+    .moviepic img {
+        width: 100%;
+        padding: 5px 0px 3px 0px;
+       }
 }
