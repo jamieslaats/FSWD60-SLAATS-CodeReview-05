@@ -21,6 +21,12 @@ h1,h2, p {
 	color: white;
 	font-size: 1.7em;
 	font-weight:  bold;
+	text-decoration: none;
+}
+
+#weblinks a:hover {
+	color: black;
+
 }
 
 /*--- Sort BUTTON START AND STYLING --->*/
