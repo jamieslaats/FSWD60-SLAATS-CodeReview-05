@@ -13,10 +13,10 @@ jQuery(document).ready(function($){
         $('.movienameinfo').height(container_height);  // Set target DIVs height to container height
       });
 
-//jQuery Code to be able to set the hight of the movienameinfo column equally across the page. 
+//jQuery Code to be able to set the hight of the sort button column equally with the title div. 
 jQuery(document).ready(function($){
-        var header_height = $('#headerdiv').height(); // Get the height of our container
-        $('#sortbutton').height(header_height);  // Set target DIVs height to container height
+        var title_height = $('#titlediv').height(); // Get the height of our title div
+        $('#sortbutton').height(title_height);  // Set target DIVs height to title div height
       });
 
 //jQuery Code to be able to apply likes to all the like buttons and adds value. Currently, though with refresh it resets. 
@@ -24,4 +24,5 @@ $(".lkbtn").on("click", function(e){
     var $counter = $(this).find(".count");
     var count = $counter.text() | 0; //corose current count to an integer
     $counter.text(count + 1);//set new count
-	});
+});
+

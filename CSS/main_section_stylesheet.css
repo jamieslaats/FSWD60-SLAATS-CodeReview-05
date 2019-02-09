@@ -1,22 +1,19 @@
-div {
-	border: 1px solid red;
-}
 /* BEGINNING OF MAIN SECTION AND COMPLETE SELF STYLED CSS */
 main {
 	background-color: #171E24;
-	padding: 25px 0px 50px 0px;
-}
-
-h1,h2, p {
-	color: white;
+	padding: 0px 0px 50px 0px;
 }
 
 #header, #footer {
 	background-color: black;
 }
 
+h1,h2, p {
+	color: white;
+}
+
 /*--- NAVIGATION BAR STYLING ---*/
-nav {
+.navbar {
 	background-color:  #434343;
 }
 
@@ -26,13 +23,13 @@ nav {
 	font-weight:  bold;
 }
 
-.srtbtn {
+/*--- Sort BUTTON START AND STYLING --->*/
+#srtbtn {
 	background-color: #171E24;
 	border: #171E24;
 	color: white ;
 	outline: none;
 	font-size: 1.2em;
-	/* padding-top: 30px; */
 }
 
 #sortbutton {
