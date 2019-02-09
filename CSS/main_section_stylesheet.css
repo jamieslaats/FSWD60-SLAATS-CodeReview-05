@@ -1,6 +1,6 @@
-/* div {
+div {
 	border: 1px solid red;
-} */
+}
 /* BEGINNING OF MAIN SECTION AND COMPLETE SELF STYLED CSS */
 main {
 	background-color: #171E24;
@@ -26,6 +26,19 @@ nav {
 	font-weight:  bold;
 }
 
+.srtbtn {
+	background-color: #171E24;
+	border: #171E24;
+	color: white ;
+	outline: none;
+	font-size: 1.2em;
+	/* padding-top: 30px; */
+}
+
+#sortbutton {
+	display: flex;
+	vertical-align: center;
+}
 
 /*---ROW STYLING WITHIN THE CONTENT ---*/
 #row1 {
@@ -82,6 +95,10 @@ button {
 			padding: 5px 2px 5px 2px;
 			margin: 5px 2px 5px 2px;
 		}
+		
+		h1 {
+			padding-left: 0px;
+		}
 
 		h2 {
 			font-size: 1.5em;
@@ -92,14 +109,14 @@ button {
 		}
 
 		.badge {
-			font-size: 1.5em;
+			font-size: 1.2em;
 			border-radius: 75%;
 		}
 
 		.lkbtn {
 			margin: 3px 0px 3px 0px;
 			padding: 3px 0px 3px 0px;
-			font-size: 2em;
+			font-size: 1.75em;
 		}
 	}
 
@@ -120,6 +137,10 @@ button {
 		.row {
 			padding: 5px 2px 5px 2px;
 			margin: 5px 2px 5px 2px;
+		}
+		
+		h1 {
+			padding-left: 0px;
 		}
 
 		h2 {
@@ -160,6 +181,10 @@ button {
 			padding: 5px 2px 5px 2px;
 			margin: 5px 2px 5px 2px;
 		}
+		
+		h1 {
+			padding-left: 0px;
+		}
 
 		h2 {
 			font-size: 2em;
@@ -195,6 +220,9 @@ button {
 		.row {
 			padding: 5px 2px 5px 2px;
 			margin: 5px 2px 5px 2px;
+		}
+		h1 {
+			padding-left: 75px;
 		}
 
 		h2 {
@@ -233,10 +261,14 @@ button {
 			margin: 5px 2px 5px 2px;
 		}
 
+		h1 {
+			padding-left: 75px;
+		}
+
 		h2 {
 			font-size: 2em;
 		}
-		
+
 		.badge {
 			font-size: 1.75em;
 			border-radius: 75%;

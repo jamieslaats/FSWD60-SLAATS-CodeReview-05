@@ -9,9 +9,9 @@ movies=[{
 	"image": "img/transformers1986.png"
 	},
 {
-	"name": "God's Not Dead",
-	"description": "College philosophy professor Mr. Radisson's curriculum is challenged by his new student, Josh, who believes God exists.",
-	"image": "img/godsnotdead1.png"
+	"name": "The Case for Christ",
+	"description": "An investigative journalist and self-proclaimed atheist sets out to disprove the existence of God after his wife becomes a Christian.",
+	"image": "img/thecaseforchrist.png"
 	},
 	{
 	"name": "Avengers",
@@ -19,9 +19,9 @@ movies=[{
 	"image": "img/avengersnumber1.png"
 	},
 	{
-	"name": "Inception",
-	"description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
-	"image": "img/inception.png"
+	"name": "Risen",
+	"description": "In 33 AD, a Roman Tribune in Judea is tasked to find the missing body of Jesus Christ who rose from the dead.",
+	"image": "img/risen.png"
 	},
 	{
 	"name": "Limitless",
